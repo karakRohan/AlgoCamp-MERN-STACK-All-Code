@@ -31,6 +31,7 @@ app.use("/", (req, res) => {
 });
 
 
+// Define a PORT and attach it to the express app
 app.listen(PORT, () => {
   console.log("Server is running on port 3000");
   connectDB();

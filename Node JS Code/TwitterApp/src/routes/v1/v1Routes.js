@@ -2,7 +2,7 @@ import express from 'express';
 import tweetRouter from "./tweet.js";
 import commentRouter from "./comments.js";
 
-const router = express.Router();
+const router = express.Router(); // Create a New Router Object
 
 router.use("/tweets", tweetRouter); //if the remaining req url starts with /api/v1/tweets, use the tweetRouter
 

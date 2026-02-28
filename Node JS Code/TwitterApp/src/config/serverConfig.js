@@ -1,7 +1,7 @@
 import dotenv from 'dotenv';
 
-dotenv.config();
+dotenv.config(); // Load environment variables from .env file
 
-export const PORT = process.env.PORT || 3000;
+export const PORT = process.env.PORT || 3000; // Define a PORT Variable
 
 export const MONGODB_URL = process.env.MONGODB_URL;
