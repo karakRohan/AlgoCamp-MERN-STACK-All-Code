@@ -1,6 +1,7 @@
-import { success } from "zod";
+ import { success } from "zod";
 
 export const validate=(schema)=>{//the function takes schema from tweetZodSchema.js
+    //it returns a validation middleware function that can be used in the route handler
     return async(req,res,next)=>{
         try{
             console.log(req.body);
