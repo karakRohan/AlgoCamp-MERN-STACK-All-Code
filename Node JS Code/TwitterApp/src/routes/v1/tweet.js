@@ -4,6 +4,7 @@ import {validate} from '../../validators/zodValidator.js';
 import { tweetZodSchema } from '../../validators/tweetZodSchema.js';
 import { getTweetByIdManuelValidator } from '../../validators/tweetManualValidator.js';
 
+
 const router = express.Router();// create a router object
 
 router.get('/',getTweets);//hit when request made to /api/v1/tweets

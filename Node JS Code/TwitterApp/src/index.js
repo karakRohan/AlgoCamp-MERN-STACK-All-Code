@@ -15,7 +15,6 @@ app.use(express.urlencoded());
 
 app.use("/api", apiRouter); //if the req url starts with /api, use the apiRouter
 
-
 app.get("/ping", (req, res) => {
   return res.json({
     message: "pong",
