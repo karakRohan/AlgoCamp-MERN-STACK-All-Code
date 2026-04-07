@@ -14,6 +14,7 @@ class Product {
         this.description = productDescription;
         this.rating = productRating;
     }
+    
 
     getPrice() {
         return this.#price;
