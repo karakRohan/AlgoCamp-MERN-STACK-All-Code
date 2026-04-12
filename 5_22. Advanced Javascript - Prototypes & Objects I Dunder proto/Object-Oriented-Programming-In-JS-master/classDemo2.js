@@ -91,6 +91,7 @@ iphone.description = ""; // this calls the setter function
 console.log(iphone.description); // this calls the getter function
 iphone.displayProduct();
 
+
 /**
  * 
  * let obj ={
