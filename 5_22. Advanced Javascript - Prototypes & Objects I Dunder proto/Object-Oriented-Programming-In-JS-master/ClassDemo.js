@@ -15,6 +15,7 @@ class Product {
         this.rating = productRating;
     }
     
+    
 
     getPrice() {
         return this.#price;
