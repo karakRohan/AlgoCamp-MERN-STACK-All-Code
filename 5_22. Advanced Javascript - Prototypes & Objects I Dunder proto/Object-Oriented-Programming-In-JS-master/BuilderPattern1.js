@@ -23,6 +23,7 @@ class Product {
     }
 }
 
+
 const p = new Product({
     name: "Iphone",
     price: 1000,
