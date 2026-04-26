@@ -18,7 +18,6 @@ class Product {
     displayProduct() {
         console.log("Product displayed", this.#name, this.#price, this.#description);
     }   
-     
 
     static get Builder() {
         class Builder {
