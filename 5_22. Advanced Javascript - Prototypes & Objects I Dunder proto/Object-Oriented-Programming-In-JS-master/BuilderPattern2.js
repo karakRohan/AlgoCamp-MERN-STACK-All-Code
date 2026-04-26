@@ -19,7 +19,6 @@ class Product {
         console.log("Product displayed", this.#name, this.#price, this.#description);
     }
   
-    
 
     static get Builder() {
         class Builder {
