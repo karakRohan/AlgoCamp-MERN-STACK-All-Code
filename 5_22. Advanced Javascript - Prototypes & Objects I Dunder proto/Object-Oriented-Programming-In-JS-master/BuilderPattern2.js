@@ -52,7 +52,6 @@ class Product {
 
 }
 
-
 /**
  * Product.Builder() calls the Builder getter
  */
