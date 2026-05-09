@@ -59,8 +59,6 @@ const p = new Product.Builder()
                     .setPrice(1000)
                     .setDescription("Apple Iphone")
                     .build();
-                    
-
-                    
+                                      
 
 p.displayProduct();
