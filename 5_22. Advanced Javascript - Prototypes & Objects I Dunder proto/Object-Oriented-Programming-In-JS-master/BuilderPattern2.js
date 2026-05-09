@@ -49,7 +49,6 @@ class Product {
 
         return Builder;
     }
-
 }
 
 /**
