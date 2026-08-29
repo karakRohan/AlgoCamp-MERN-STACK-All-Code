@@ -9,6 +9,6 @@ function myMap(arr, fn) { // myMap is a higher order function that takes an arra
     return result;
 }
 
-console.log(myMap(arr, function g(element) { // g is a callback function that takes an element as an argument
+console.log(myMap(arr, function g(element) { // g is a callback function that takes an element as an argument   
     return element**2;
 }))
