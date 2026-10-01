@@ -8,7 +8,6 @@ const waitingForSomething = (ms) => {
     }
 }
 
-
 export default function AnotherSlowComponent({ children }) {
     waitingForSomething(1000);
     
