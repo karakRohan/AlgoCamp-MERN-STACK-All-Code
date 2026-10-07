@@ -17,6 +17,7 @@ function Child() {
 function App() {
   
   const [isOpen, setIsOpen] = useState(false);
+  
   const [x, setX] = useState(0);
 
   // const someFunction = useCallback(() => {}, []);
