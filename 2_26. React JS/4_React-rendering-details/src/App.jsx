@@ -14,10 +14,11 @@ function Child() {
   return <div>I am a child</div>
 }
 
+
 function App() {
   
   const [isOpen, setIsOpen] = useState(false);
-  
+
   const [x, setX] = useState(0);
 
   // const someFunction = useCallback(() => {}, []);
